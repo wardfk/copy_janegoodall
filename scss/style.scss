@@ -41,10 +41,16 @@ main#index{
         color: white;
         font-weight: bold;
     }
+    @media screen and (max-width: 768px) {
+        h1{
+            font-size: 32px;
+        }
+    }
 
     section#global{
         color: $green;
         text-align: center;
+        background-color: $bgcolor;
         font-size: 20px;
         @extend %flex;
         padding: 23px;
@@ -106,7 +112,9 @@ main#index{
             }
         }
         .impact{
+            display: flex;
             padding: 0;
+            margin: 0;
             .our-impact{
                 padding: 40px;
             }
@@ -120,8 +128,10 @@ main#index{
     }
 
     section#faq{
-        padding: 0;
         font-size: 18px;
+        img{
+            width: 100%;
+        }
         .faqs{
             padding: 40px;
             background-color: $licht;
