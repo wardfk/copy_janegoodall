@@ -24,7 +24,7 @@ header#header {
   position: sticky;
   top: 0;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 header#header .navbar-brand, header#header .navbar-collapse a {
