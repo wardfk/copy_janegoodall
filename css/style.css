@@ -21,6 +21,8 @@ h1 {
 header#header {
   text-transform: uppercase;
   height: 77px;
+  position: sticky;
+  top: 0;
 }
 
 header#header .navbar-brand, header#header .navbar-collapse a {
